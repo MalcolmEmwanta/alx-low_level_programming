@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return:always return 0
  *
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n < o)
+	if (n < 0)
 	{ 
 		printf("%d is negative\n", n);
 	} else, if(n = 0)
@@ -22,8 +22,7 @@ int main(void)
 		printf("%d is 0\n", n);
 	} else
 	{
-		printf("%d is positive\n", n);
-	 
+		printf("%d is positive\n", n);	
 	} 
 	return (0);
 }
