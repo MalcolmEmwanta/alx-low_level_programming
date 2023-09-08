@@ -1,3 +1,9 @@
 #include <stdio.h>
-int main(n, n++; n--)
+/**
+  * Main - Entry point
+  *
+  *Return; always (0)
+  */
+int main(void)
+
 
