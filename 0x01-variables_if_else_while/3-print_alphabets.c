@@ -1,11 +1,18 @@
 #include <stdio.h>
-
 /**
+ * main - entry point
  *
- *main - Entry point
+ * Return: always returns 0
  *
- * Return; always 0
- *
- *\
-
+ */
 int main(void)
+{
+	char a;
+
+	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	for (a = 'A'; a <= 'Z'; a++)
+		putchar(a);
+	putchar('\n');
+	return (0);
+}
