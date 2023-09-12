@@ -1,12 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  *
- * Return: always return 0;
+ * Return: ALways returns 0
  *
  */
-
 int main(void)
 {
 	_putchar("_");
@@ -17,5 +16,6 @@ int main(void)
 	_putchar("h");
 	_putchar("a");
 	_putchar("r");
+	_putchar("\n");
 	return (0);
 }
