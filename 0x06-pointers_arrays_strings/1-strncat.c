@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strncat - concats two arrays
+ * _strncat - concatenates two strings
  *
- * @dest: destination of concat
- * @src: source array to concat
+ * @dest: destination of new string
+ * @src: source string
  * @n: amount of times to append
  *
- * Return: char value
+ * Return: returns dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
