@@ -2,10 +2,10 @@
 /**
  * _memset() - fill memory  with a constant byte
  * @b: byte to fill
- * @n: number of bytes to fill
+ * @n: number of times to fill
  * @s: pointer to the address
  *
- * Return: return to *s
+ * Return: return to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-	return s;
+	return (s);
 }
