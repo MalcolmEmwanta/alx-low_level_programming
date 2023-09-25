@@ -5,7 +5,7 @@
  * @n: number of times to fill
  * @s: pointer to the address
  *
- * Return: return to s
+ * Return: return s
  */
 
 char *_memset(char *s, char b, unsigned int n)
