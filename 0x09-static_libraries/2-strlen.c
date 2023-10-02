@@ -2,9 +2,9 @@
 
 /**
  * _strlen - to return the length of a string
+ *@s: string to compare
  *
- *Return;return the length
- *
+ *Return:return the length
  */
 
 int _strlen(char *s)
